@@ -80,4 +80,3 @@ export { default as ClosingXSVG } from './svg/ClosingXSVG';
 
 //**SPRING */
 
-export { default as TranslateIn } from './spring/TranslateIn';
