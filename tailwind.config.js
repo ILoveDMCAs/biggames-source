@@ -71,8 +71,8 @@ module.exports = {
                 discord: 'linear-gradient(180deg, #7F89FF 0%, #5864F5 99.58%)',
                 twitter: 'linear-gradient(180deg, #1EB9FF 0%, #00ADFB 99.58%)',
                 yt: 'linear-gradient(180deg, #FF4141 0%, #FF0000 99.58%)',
-                screenTwoBg: "url('/2ndScreen.svg')",
-                screenTwoBgLg: "url('/2ndScreenLarge.svg')",
+              //  screenTwoBg: "url('/2ndScreen.svg')",
+               // screenTwoBgLg: "url('/2ndScreenLarge.svg')",
                 gradientBottom: 'linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(249,249,249,0) 60%)',
             },
             fontSize: {

@@ -29,7 +29,6 @@ export { default as BlogImageWrapper } from './moleculus/BlogImageWrapper';
 // ─── MAIN ─────────────────────────────────────────────────────────────────
 //
 
-export { default as ScreenTwo } from './main/ScreenTwo';
 export { default as CarouselComp } from './main/CarouselComp';
 
 //

@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import {
-    ScreenTwo,
     CarouselComp,
     Navigation,
     Footer,
@@ -135,7 +134,7 @@ const Home: NextPage<PageData> = ({ counterTime, counterEndText, frontImages, im
                     />
                 )}
 
-                <ScreenTwo />
+                
                 <span id="ourgames" className="relative -top-[6.25rem]"></span>
                 <CarouselComp />
             </main>
