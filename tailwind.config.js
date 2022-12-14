@@ -18,7 +18,7 @@ module.exports = {
                 pageBg: '#F3F5F7',
                 pageBlack: '#2B2B2B',
                 blurImg: '#97adb5',
-                heroBannerBG: '#E8ECF1',
+             //   heroBannerBG: '#E8ECF1',
                 heroTextGrey: '#7E7E7E',
                 timeDone: '#9D9D9D',
                 counterRed: '#FF294A',

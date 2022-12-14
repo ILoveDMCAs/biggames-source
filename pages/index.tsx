@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import {
-    HeroBanner,
     ScreenTwo,
     CarouselComp,
     Navigation,
@@ -89,9 +88,9 @@ const Home: NextPage<PageData> = ({ counterTime, counterEndText, frontImages, im
     state.getImgObj(imgObj);
     state.getHeroTitleDesc(heroTitleDesc);
 
-    const mainClasses = classname({
-        'relative bg-heroBannerBG mt-[80px] lg:mt-[80px]': true,
-    });
+    //const mainClasses = classname({
+    //    'relative bg-heroBannerBG mt-[80px] lg:mt-[80px]': true,
+  //  });
 
     const joinCommunityClasses = classname({
         relative: true,
@@ -109,7 +108,6 @@ const Home: NextPage<PageData> = ({ counterTime, counterEndText, frontImages, im
             </Head>
             <Navigation />
             <main className={mainClasses}>
-                <HeroBanner frontImages={frontImages} />
                 {loading ? (
                     <BlogItem
                         blogHeader="Latest Update"

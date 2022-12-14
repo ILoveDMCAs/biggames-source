@@ -8,10 +8,10 @@ interface BlogTemplate extends HTMLAttributes<HTMLDivElement> {
 }
 
 export default function BlogTemplate({ children, withoutBlogNavigation, centeredFooterXL }: BlogTemplate) {
-    const mainClasses = classname({
-        'relative bg-heroBannerBG mt-[80px] md:mt-[130px] px-4': true,
-        'lg:grid lg:grid-cols-desktop lg:grid-rows-default lg:justify-items-center': true,
-    });
+  //  const mainClasses = classname({
+    //    'relative bg-heroBannerBG mt-[80px] md:mt-[130px] px-4': true,
+    //    'lg:grid lg:grid-cols-desktop lg:grid-rows-default lg:justify-items-center': true,
+  //  });
 
     // const joinCommunityClasses = classname({
     //   relative: true

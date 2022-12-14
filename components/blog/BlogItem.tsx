@@ -81,10 +81,10 @@ export default memo(function BlogItem({
         'description text-sm text-left text-lg mt-2 leading-4 min-h-[50px] h-full': blogItem,
     });
 
-    const blurredClasses = classnames({
-        'absolute -top-1 z-[0] w-[110%] h-[100px] blur-sm bg-white/90 to-transparent lg:hidden': frontpage,
-        'absolute top-5 z-[0] w-[110%] h-[40px] blur-sm bg-heroBannerBG to-transparent lg:hidden': blogMain,
-    });
+   // const blurredClasses = classnames({
+      //  'absolute -top-1 z-[0] w-[110%] h-[100px] blur-sm bg-white/90 to-transparent lg:hidden': frontpage,
+       // 'absolute top-5 z-[0] w-[110%] h-[40px] blur-sm bg-heroBannerBG to-transparent lg:hidden': blogMain,
+   // });
     return (
         <div className={wrapperClasses}>
             <div className={innerWraperClasses}>
