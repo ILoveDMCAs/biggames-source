@@ -112,7 +112,7 @@ export default memo(function BlogItem({
                         descriptionStyle={headerDescriptionClasses}
                     />
                     <div className={IconTextClasses}>
-                        <div className={blurredClasses}></div>
+                       // <div className={blurredClasses}></div>
                         <IconText
                             className="roundButtonClass bg-pageBlue shadow-glowBlue flex flex-row-reverse"
                             src={arrrow}
