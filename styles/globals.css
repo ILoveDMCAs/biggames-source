@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Outfit', sans-serif;
+    }
+
+    figure {
+        margin: auto;
+    }
+    @-moz-document url-prefix() {
+        .bg-pageBg\/70 {
+            background-color: rgb(243, 245, 247, 1) !important;
+        }
+    }
+}
+
+@layer components {
+    .dateItem {
+        @apply font-bold text-timeDone tracking-wide text-sm;
+    }
+    .blur2imagesWrapper {
+        @apply flex lg:flex-col lg:items-center gap-3 sm:gap-16 w-[200px] sm:w-[270px] lg:w-[270px];
+    }
+    .blurImageItemWrapper {
+        @apply w-[190px] h-[100px] lg:w-[200px] lg:h-[200px];
+    }
+    .blurImageItemBlur {
+        @apply w-[50px] h-[50px] lg:w-[80px] lg:h-[80px];
+    }
+    .defaultTransition {
+        @apply transform-gpu transition-all duration-200;
+    }
+    .navButton {
+        @apply font-bold text-timeDone text-xl uppercase hidden md:block cursor-pointer defaultTransition hover:text-pageOrange;
+    }
+    .navButtonSelected {
+        @apply font-bold text-pageOrange text-xl uppercase hidden md:block cursor-pointer;
+    }
+    .sidebarSocialBtn {
+        @apply w-full max-w-[200px] lg:max-w-[150px] h-16 rounded-full flex items-center justify-center;
+    }
+    .title {
+        @apply text-pageBlack font-extrabold text-center;
+    }
+    .description {
+        @apply text-heroTextGrey font-medium text-center;
+    }
+    .infoButton {
+        @apply leading-6 w-full max-w-[450px] lg:max-w-[345px] relative py-10;
+    }
+    .footerTitle {
+        @apply font-bold text-size22 text-pageBlack;
+    }
+    .roundButtonClass {
+        @apply rounded-full text-xl flex items-center justify-center gap-2 font-bold text-white h-spacing60 w-[220px] defaultTransition hover:scale-105 cursor-pointer;
+    }
+    .relativePushTop2 {
+        @apply relative top-3;
+    }
+    .relativePushTop1 {
+        @apply relative top-2;
+    }
+}
